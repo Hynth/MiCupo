@@ -1,26 +1,33 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# MiCupo
 
-## How to use this template
+Aprendiendo a instalar, configurar:
+- Ionic
+- WebStorm
+En el sistema Windows..
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+- Ionic:
+  Antes de iniciar se recomienda usar git for windows.
+  
+  1. Instalar Node.js (https://nodejs.org/es/)
+  2. Actualizar Package.json
+  (https://frontendlabs.io/2956--npm-como-actualizar-package-json-ultima-version-dependencias)
+  (Opcional!!)
+     - $npm install -g npm-check-updates
+     - $ncu -u
+     - $git status
+     - $npm install -d
+  3. Instalar Ionic Cordova
+     - $npm install -g cordova ionic
+  4. Configurar Git (Opcional!!)
+  (https://git-scm.com/book/es/v1/Empezando-Configurando-Git-por-primera-vez)
+     - $ git config --global user.name "John Doe"
+     - $ git config --global user.email johndoe@example.com
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+- WebStorm:
+  1. Acceder a Jetbrains (https://www.jetbrains.com/)
+  2. Registrarse con correo universitario
+  3. Identificarse como universitario para obtener licencia free
+  4. Descargar WebStorm
+  5. Activar licencia
 
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
-
-Then, to run it, cd into `myTabs` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+Repositorio app de eventos : (https://github.com/hlhq1/ionic-conference-app)
